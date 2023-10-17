@@ -1,0 +1,185 @@
+\hypertarget{classrt_1_1Explosion}{}\doxysection{rt\+::Explosion Class Reference}
+\label{classrt_1_1Explosion}\index{rt::Explosion@{rt::Explosion}}
+
+
+creaete \mbox{\hyperlink{classrt_1_1Explosion}{Explosion}} class  
+
+
+
+
+{\ttfamily \#include $<$Explosion.\+hpp$>$}
+
+Inheritance diagram for rt\+::Explosion\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classrt_1_1Explosion}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1Explosion_a96e3d601d09c57006c36a6b5aecdb6f6}{Explosion}} (void)
+\item 
+\mbox{\hyperlink{classrt_1_1Explosion_a3fe46970ce2c9047e2773e9c8f36f483}{$\sim$\+Explosion}} (void)=default
+\item 
+bool \mbox{\hyperlink{classrt_1_1Explosion_a35838916f19aac68dc974255d40ad157}{if\+Visible}} (sf\+::\+Vector2f const \&pos\+Ecart) const
+\item 
+void \mbox{\hyperlink{classrt_1_1Explosion_a64d15573d69e5663eb83cd4f53be001e}{react}} (sf\+::\+Event const \&event)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{rt\+::\+Animated\+Rectangle}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1AnimatedRectangle_a05f4b5dc5baeb613274260e58ed44484}{Animated\+Rectangle}} (void)=default
+\item 
+\mbox{\hyperlink{classrt_1_1AnimatedRectangle_aa5eca9e5e2a8815828da816243fc6458}{Animated\+Rectangle}} (\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} rt\+Rect, sf\+::\+Int\+Rect const \&int\+Rect, sf\+::\+Int\+Rect const \&image\+Limit, sf\+::\+Vector2f const \&animation\+Sequence, float const \&mili\+Delay)
+\item 
+\mbox{\hyperlink{classrt_1_1AnimatedRectangle_a9100a6f7f4291db0557018bcaefe816a}{$\sim$\+Animated\+Rectangle}} (void)=default
+\item 
+virtual bool \mbox{\hyperlink{classrt_1_1AnimatedRectangle_af00644c9f99e2197a3f3e4f547cd69bc}{if\+Visible}} (sf\+::\+Vector2f const \&pos\+Ecart=sf\+::\+Vector2f(0, 0)) const =0
+\item 
+void \mbox{\hyperlink{classrt_1_1AnimatedRectangle_adc0207d25551d7430221137dfb88c9dd}{move\+Image\+Rect}} (void)
+\item 
+virtual void \mbox{\hyperlink{classrt_1_1AnimatedRectangle_a65d5161f1dcaaf922e963981d4bfc1c0}{react}} (sf\+::\+Event const \&event)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1Rectangle}{rt\+::\+Rectangle}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a0c89496ce6470fad61d996763e532ae5}{Rectangle}} (void)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_aea61bf50ea67d6425f2b90b4cdce5a9d}{Rectangle}} (sf\+::\+Vector2f const \&rect\+Pos, sf\+::\+Vector2f const \&rect\+Size, std\+::string const \&image\+Src)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a09e8afee4e0402ab41a9549f91b9a17e}{Rectangle}} (sf\+::\+Vector2f const \&rect\+Pos, sf\+::\+Vector2f const \&rect\+Size, sf\+::\+Color const \&full\+Color=sf\+::\+Color\+::\+Transparent)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_ae58053dff25ac4166f9b077b9f87f46c}{Rectangle}} (\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} \& \mbox{\hyperlink{classrt_1_1Rectangle_a06cb5c195da15d34176f2958bd2d57e1}{operator=}} (\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a2b597a0332f7df2e0928f2271c322216}{$\sim$\+Rectangle}} (void)=default
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_a8f52d79b359905cb5fc89dde03242bf1}{restore}} (void)
+\item 
+sf\+::\+Rectangle\+Shape \& \mbox{\hyperlink{classrt_1_1Rectangle_ad5d8f849f3bf6535cab087884f89ca73}{get}} (void)
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_ab12a29fa2412155201aceca3e4a80c1d}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a4fd1385f25f103d752c1807db3447415}{if\+Hover}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a7d62d836055a3dd1af225e419d149e7f}{if\+Clicked}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+\mbox{\hyperlink{namespacert_a08f089eb1262b0c30a2825e3d07b4e49}{rt\+::\+Key\+Event}} const \mbox{\hyperlink{classrt_1_1Rectangle_afddc60490bc26a492508edf1437d6a6b}{get\+Event}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window)
+\item 
+sf\+::\+Vector2f const \mbox{\hyperlink{classrt_1_1Rectangle_afa023a2f94fd7fff15d0427177b406ed}{get\+Position}} (void) const
+\item 
+virtual void \mbox{\hyperlink{classrt_1_1Rectangle_a16d8e9c5aa7b70fe74d8c8c54ca110cc}{set\+Position}} (sf\+::\+Vector2f const \&position)
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_ad38776f87dbbeb97f87bd39fe0a4e495}{update\+Position}} (sf\+::\+Vector2f const \&pos\+Ecart)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1IObject}{rt\+::\+IObject}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1IObject_a66d764973d45cc175c3b0cd8f4ec0b09}{$\sim$\+IObject}} (void)=default
+\item 
+virtual void \mbox{\hyperlink{classrt_1_1IObject_ac2efb29634d6dd58f5fb4cf47a30e189}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const =0
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{rt\+::\+Animated\+Rectangle}}}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Clock \mbox{\hyperlink{classrt_1_1AnimatedRectangle_a8751616354a7ca26284108557fc48263}{\+\_\+clock}}
+\item 
+sf\+::\+Int\+Rect \mbox{\hyperlink{classrt_1_1AnimatedRectangle_a461c1996f30ae5739e8e571ade106499}{\+\_\+int\+Rect}}
+\item 
+sf\+::\+Int\+Rect const \mbox{\hyperlink{classrt_1_1AnimatedRectangle_aa41fa0afd1c831daee2ff323e90d7f27}{\+\_\+image\+Limit}}
+\item 
+sf\+::\+Vector2f const \mbox{\hyperlink{classrt_1_1AnimatedRectangle_a389d931c7d6e913dff262520f752e7b5}{\+\_\+animation\+Sequence}}
+\item 
+float const \mbox{\hyperlink{classrt_1_1AnimatedRectangle_a506f88d7c05c78bc65799ae58ef0e93d}{\+\_\+mili\+Delay}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1Rectangle}{rt\+::\+Rectangle}}}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Rectangle\+Shape \mbox{\hyperlink{classrt_1_1Rectangle_ae1bfd0960100ea8c91012beb3b18ea66}{\+\_\+rect}}
+\item 
+sf\+::\+Texture \mbox{\hyperlink{classrt_1_1Rectangle_a6709c49d1c553d29c10c15cc0b25eec8}{\+\_\+texture}}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classrt_1_1Rectangle_a8cd19b08de5c56a2973b7446cf5651ef}{\+\_\+size}}
+\item 
+\mbox{\hyperlink{namespacert_a08f089eb1262b0c30a2825e3d07b4e49}{rt\+::\+Key\+Event}} \mbox{\hyperlink{classrt_1_1Rectangle_a9e4c97b5071246d7ce9d14c6107b1c73}{\+\_\+current\+Event}}
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a6d0780a906a4185899bae4fef75174d6}{\+\_\+last\+Click}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1IObject}{rt\+::\+IObject}}}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classrt_1_1IObject_a13b24a0081333d7f0a7367da495f21a8}{\+\_\+position}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+creaete \mbox{\hyperlink{classrt_1_1Explosion}{Explosion}} class 
+
+manage reaction with key
+
+check bombe position
+
+Manage a game explosion\+:\+: explosion object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+Ecart} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em event} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1Explosion_a96e3d601d09c57006c36a6b5aecdb6f6}\label{classrt_1_1Explosion_a96e3d601d09c57006c36a6b5aecdb6f6}} 
+\index{rt::Explosion@{rt::Explosion}!Explosion@{Explosion}}
+\index{Explosion@{Explosion}!rt::Explosion@{rt::Explosion}}
+\doxysubsubsection{\texorpdfstring{Explosion()}{Explosion()}}
+{\footnotesize\ttfamily rt\+::\+Explosion\+::\+Explosion (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Explosion_a3fe46970ce2c9047e2773e9c8f36f483}\label{classrt_1_1Explosion_a3fe46970ce2c9047e2773e9c8f36f483}} 
+\index{rt::Explosion@{rt::Explosion}!````~Explosion@{$\sim$Explosion}}
+\index{````~Explosion@{$\sim$Explosion}!rt::Explosion@{rt::Explosion}}
+\doxysubsubsection{\texorpdfstring{$\sim$Explosion()}{~Explosion()}}
+{\footnotesize\ttfamily rt\+::\+Explosion\+::$\sim$\+Explosion (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1Explosion_a35838916f19aac68dc974255d40ad157}\label{classrt_1_1Explosion_a35838916f19aac68dc974255d40ad157}} 
+\index{rt::Explosion@{rt::Explosion}!ifVisible@{ifVisible}}
+\index{ifVisible@{ifVisible}!rt::Explosion@{rt::Explosion}}
+\doxysubsubsection{\texorpdfstring{ifVisible()}{ifVisible()}}
+{\footnotesize\ttfamily bool rt\+::\+Explosion\+::if\+Visible (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f const \&}]{pos\+Ecart }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classrt_1_1AnimatedRectangle_af00644c9f99e2197a3f3e4f547cd69bc}{rt\+::\+Animated\+Rectangle}}.
+
+\mbox{\Hypertarget{classrt_1_1Explosion_a64d15573d69e5663eb83cd4f53be001e}\label{classrt_1_1Explosion_a64d15573d69e5663eb83cd4f53be001e}} 
+\index{rt::Explosion@{rt::Explosion}!react@{react}}
+\index{react@{react}!rt::Explosion@{rt::Explosion}}
+\doxysubsubsection{\texorpdfstring{react()}{react()}}
+{\footnotesize\ttfamily void rt\+::\+Explosion\+::react (\begin{DoxyParamCaption}\item[{sf\+::\+Event const \&}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classrt_1_1AnimatedRectangle_a65d5161f1dcaaf922e963981d4bfc1c0}{rt\+::\+Animated\+Rectangle}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{Explosion_8hpp}{Explosion.\+hpp}}\item 
+client/\+Graphic/source/\+Personnages/\mbox{\hyperlink{Explosion_8cpp}{Explosion.\+cpp}}\end{DoxyCompactItemize}

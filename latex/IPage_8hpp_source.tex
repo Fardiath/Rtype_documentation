@@ -1,0 +1,44 @@
+\hypertarget{IPage_8hpp_source}{}\doxysection{IPage.\+hpp}
+\label{IPage_8hpp_source}\index{client/Graphic/include/IPage.hpp@{client/Graphic/include/IPage.hpp}}
+\mbox{\hyperlink{IPage_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ EPITECH\ PROJECT,\ 2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**\ IPage.h}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ File\ description:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**\ IPage}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_I\_PAGES\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\ \ \ \ \#define\ \_I\_PAGES\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{AnimatedRectangle_8hpp}{AnimatedRectangle.hpp}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{Input_8hpp}{Input.hpp}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{Button_8hpp}{Button.hpp}}"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{Text_8hpp}{Text.hpp}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{Room_8hpp}{Room.hpp}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacert}{rt}}\ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrt_1_1IPage}{IPage}}\ \{}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1IPage_a382ada6dbefc93b6c6a83e0ce99a02e6}{IPage}}(}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \ \ \ \ std::shared\_ptr<sf::RenderWindow>\ window,}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Event\ \textcolor{keyword}{const}\ \&event}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ )\ :}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1IPage_a8962a3d2fd703798257dc4e880249db1}{\_window}}(window),}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1IPage_a961236ac0bc6c782681cf39b86167aee}{\_event}}(event)}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ \{\ \}}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{classrt_1_1IPage_a8faea6f1e12d30e8106d6b3b93e9a490}{\string~IPage}}(\textcolor{keywordtype}{void})\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \textcolor{keyword}{virtual}\ std::string\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classrt_1_1IPage_a305d9f52c693a13955f7c7d641370e7f}{run}}(}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \ \ \ \ std::vector<std::unique\_ptr<AnimatedRectangle>>\ \&personnages}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ )\ =\ 0;}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ std::shared\_ptr<sf::RenderWindow>\ \mbox{\hyperlink{classrt_1_1IPage_a8962a3d2fd703798257dc4e880249db1}{\_window}};}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ sf::Event\ \textcolor{keyword}{const}\ \&\mbox{\hyperlink{classrt_1_1IPage_a961236ac0bc6c782681cf39b86167aee}{\_event}};}
+\DoxyCodeLine{00039\ \ \ \ \ \};}
+\DoxyCodeLine{00040\ \}}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

@@ -1,0 +1,45 @@
+\hypertarget{Graphics_8hpp_source}{}\doxysection{Graphics.\+hpp}
+\label{Graphics_8hpp_source}\index{client/Graphic/include/Graphics.hpp@{client/Graphic/include/Graphics.hpp}}
+\mbox{\hyperlink{Graphics_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ EPITECH\ PROJECT,\ 2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**\ IGUI.h}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ File\ description:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**\ IGUI}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_CLIENT\_GRAPHICS\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\ \ \ \ \#define\ \_CLIENT\_GRAPHICS\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{PageMenu_8hpp}{PageMenu.hpp}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{PageSetting_8hpp}{PageSetting.hpp}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{PageGame_8hpp}{PageGame.hpp}}"{}}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacert}{rt}}\ \{}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrt_1_1GUI}{GUI}}\ \{}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1GUI}{GUI}}(\textcolor{keywordtype}{int}\ \textcolor{keyword}{const}\ \&width,\ \textcolor{keywordtype}{int}\ \textcolor{keyword}{const}\ \&height,\ std::string\ \textcolor{keyword}{const}\ \&windowName);}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1GUI_ac5514e338f501929af48a287b8aa4782}{\string~GUI}}(\textcolor{keywordtype}{void})\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classrt_1_1GUI_a7e86882e124574d2441fde00c7124ada}{manage\_event}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classrt_1_1GUI_a63e5aea2649b52b6283ad82dbd111eb1}{run}}(std::vector<std::unique\_ptr<AnimatedRectangle>>\ \&personnages);}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1GUI_a7788c16e3ff94f43b734f9d59f4518e0}{setSong}}(std::string\ \textcolor{keyword}{const}\ \&songString);}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1GUI_a1d7a2787aa9de40df2230d9f09f09cb9}{stopSong}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ std::shared\_ptr<sf::RenderWindow>\ \_window;}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ std::string\ \_currentPage;}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ sf::Event\ \_event;}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ sf::Music\ \_song;}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ std::unique\_ptr<rt::MenuPage>\ \_menuPage;}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ std::unique\_ptr<rt::GamePage>\ \_gamePage;}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ std::unique\_ptr<rt::SettingPage>\ \_settingPage;}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ std::map<std::string,\ std::unique\_ptr<rt::IPage>>\ \_pages;}
+\DoxyCodeLine{00040\ \ \ \ \ \};}
+\DoxyCodeLine{00041\ \}}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

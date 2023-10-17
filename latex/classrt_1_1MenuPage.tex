@@ -1,0 +1,100 @@
+\hypertarget{classrt_1_1MenuPage}{}\doxysection{rt\+::Menu\+Page Class Reference}
+\label{classrt_1_1MenuPage}\index{rt::MenuPage@{rt::MenuPage}}
+
+
+create menu class @clazz \mbox{\hyperlink{classrt_1_1MenuPage}{Menu\+Page}}  
+
+
+
+
+{\ttfamily \#include $<$Page\+Menu.\+hpp$>$}
+
+Inheritance diagram for rt\+::Menu\+Page\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classrt_1_1MenuPage}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1MenuPage_a29e4297a9cd58f6dbf6effc71aa7a757}{Menu\+Page}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window, sf\+::\+Event const \&event)
+\item 
+\mbox{\hyperlink{classrt_1_1MenuPage_a5bf32333e633d8fb337e518e3110718d}{$\sim$\+Menu\+Page}} (void)=default
+\item 
+std\+::string const \mbox{\hyperlink{classrt_1_1MenuPage_afa189463bebc9268aa58165e8ec21c38}{run}} (std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&personnages)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1IPage}{rt\+::\+IPage}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1IPage_a382ada6dbefc93b6c6a83e0ce99a02e6}{IPage}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window, sf\+::\+Event const \&event)
+\item 
+virtual \mbox{\hyperlink{classrt_1_1IPage_a8faea6f1e12d30e8106d6b3b93e9a490}{$\sim$\+IPage}} (void)=default
+\item 
+virtual std\+::string const \mbox{\hyperlink{classrt_1_1IPage_a305d9f52c693a13955f7c7d641370e7f}{run}} (std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&personnages)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1IPage}{rt\+::\+IPage}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ \mbox{\hyperlink{classrt_1_1IPage_a8962a3d2fd703798257dc4e880249db1}{\+\_\+window}}
+\item 
+sf\+::\+Event const  \& \mbox{\hyperlink{classrt_1_1IPage_a961236ac0bc6c782681cf39b86167aee}{\+\_\+event}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+create menu class @clazz \mbox{\hyperlink{classrt_1_1MenuPage}{Menu\+Page}} 
+
+run menu
+
+Construct a new Menu Page\+:\+: Menu Page object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \\
+\hline
+{\em event} & \\
+\hline
+{\em my\+Event} & \\
+\hline
+{\em personnages} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string const 
+\end{DoxyReturn}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1MenuPage_a29e4297a9cd58f6dbf6effc71aa7a757}\label{classrt_1_1MenuPage_a29e4297a9cd58f6dbf6effc71aa7a757}} 
+\index{rt::MenuPage@{rt::MenuPage}!MenuPage@{MenuPage}}
+\index{MenuPage@{MenuPage}!rt::MenuPage@{rt::MenuPage}}
+\doxysubsubsection{\texorpdfstring{MenuPage()}{MenuPage()}}
+{\footnotesize\ttfamily rt\+::\+Menu\+Page\+::\+Menu\+Page (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window,  }\item[{sf\+::\+Event const \&}]{event }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1MenuPage_a5bf32333e633d8fb337e518e3110718d}\label{classrt_1_1MenuPage_a5bf32333e633d8fb337e518e3110718d}} 
+\index{rt::MenuPage@{rt::MenuPage}!````~MenuPage@{$\sim$MenuPage}}
+\index{````~MenuPage@{$\sim$MenuPage}!rt::MenuPage@{rt::MenuPage}}
+\doxysubsubsection{\texorpdfstring{$\sim$MenuPage()}{~MenuPage()}}
+{\footnotesize\ttfamily rt\+::\+Menu\+Page\+::$\sim$\+Menu\+Page (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1MenuPage_afa189463bebc9268aa58165e8ec21c38}\label{classrt_1_1MenuPage_afa189463bebc9268aa58165e8ec21c38}} 
+\index{rt::MenuPage@{rt::MenuPage}!run@{run}}
+\index{run@{run}!rt::MenuPage@{rt::MenuPage}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily string const rt\+::\+Menu\+Page\+::run (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&}]{personnages }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classrt_1_1IPage_a305d9f52c693a13955f7c7d641370e7f}{rt\+::\+IPage}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{PageMenu_8hpp}{Page\+Menu.\+hpp}}\item 
+client/\+Graphic/source/\+Pages/\mbox{\hyperlink{Menu_8cpp}{Menu.\+cpp}}\end{DoxyCompactItemize}

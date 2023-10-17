@@ -1,0 +1,113 @@
+\hypertarget{classrt_1_1GUI}{}\doxysection{rt\+::GUI Class Reference}
+\label{classrt_1_1GUI}\index{rt::GUI@{rt::GUI}}
+
+
+create \mbox{\hyperlink{classrt_1_1GUI}{GUI}} class  
+
+
+
+
+{\ttfamily \#include $<$Graphics.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1GUI_a7e9385c5ee6aa8cca4829d281eb3e357}{GUI}} (int const \&width, int const \&height, std\+::string const \&window\+Name)
+\item 
+\mbox{\hyperlink{classrt_1_1GUI_ac5514e338f501929af48a287b8aa4782}{$\sim$\+GUI}} (void)=default
+\item 
+bool \mbox{\hyperlink{classrt_1_1GUI_a7e86882e124574d2441fde00c7124ada}{manage\+\_\+event}} (void)
+\item 
+bool \mbox{\hyperlink{classrt_1_1GUI_a63e5aea2649b52b6283ad82dbd111eb1}{run}} (std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&personnages)
+\item 
+void \mbox{\hyperlink{classrt_1_1GUI_a7788c16e3ff94f43b734f9d59f4518e0}{set\+Song}} (std\+::string const \&song\+String)
+\item 
+void \mbox{\hyperlink{classrt_1_1GUI_a1d7a2787aa9de40df2230d9f09f09cb9}{stop\+Song}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+create \mbox{\hyperlink{classrt_1_1GUI}{GUI}} class 
+
+run sprite
+
+manage event
+
+stop song
+
+set song
+
+Construct a new \mbox{\hyperlink{classrt_1_1GUI_a7e9385c5ee6aa8cca4829d281eb3e357}{GUI\+::\+GUI}} object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em width} & \\
+\hline
+{\em height} & \\
+\hline
+{\em window\+Name} & \\
+\hline
+{\em song\+String} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+rt\+::\+Event const
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em personnages} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1GUI_a7e9385c5ee6aa8cca4829d281eb3e357}\label{classrt_1_1GUI_a7e9385c5ee6aa8cca4829d281eb3e357}} 
+\index{rt::GUI@{rt::GUI}!GUI@{GUI}}
+\index{GUI@{GUI}!rt::GUI@{rt::GUI}}
+\doxysubsubsection{\texorpdfstring{GUI()}{GUI()}}
+{\footnotesize\ttfamily rt\+::\+GUI\+::\+GUI (\begin{DoxyParamCaption}\item[{int const \&}]{width,  }\item[{int const \&}]{height,  }\item[{std\+::string const \&}]{window\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1GUI_ac5514e338f501929af48a287b8aa4782}\label{classrt_1_1GUI_ac5514e338f501929af48a287b8aa4782}} 
+\index{rt::GUI@{rt::GUI}!````~GUI@{$\sim$GUI}}
+\index{````~GUI@{$\sim$GUI}!rt::GUI@{rt::GUI}}
+\doxysubsubsection{\texorpdfstring{$\sim$GUI()}{~GUI()}}
+{\footnotesize\ttfamily rt\+::\+GUI\+::$\sim$\+GUI (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1GUI_a7e86882e124574d2441fde00c7124ada}\label{classrt_1_1GUI_a7e86882e124574d2441fde00c7124ada}} 
+\index{rt::GUI@{rt::GUI}!manage\_event@{manage\_event}}
+\index{manage\_event@{manage\_event}!rt::GUI@{rt::GUI}}
+\doxysubsubsection{\texorpdfstring{manage\_event()}{manage\_event()}}
+{\footnotesize\ttfamily bool rt\+::\+GUI\+::manage\+\_\+event (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1GUI_a63e5aea2649b52b6283ad82dbd111eb1}\label{classrt_1_1GUI_a63e5aea2649b52b6283ad82dbd111eb1}} 
+\index{rt::GUI@{rt::GUI}!run@{run}}
+\index{run@{run}!rt::GUI@{rt::GUI}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily bool rt\+::\+GUI\+::run (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&}]{personnages }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1GUI_a7788c16e3ff94f43b734f9d59f4518e0}\label{classrt_1_1GUI_a7788c16e3ff94f43b734f9d59f4518e0}} 
+\index{rt::GUI@{rt::GUI}!setSong@{setSong}}
+\index{setSong@{setSong}!rt::GUI@{rt::GUI}}
+\doxysubsubsection{\texorpdfstring{setSong()}{setSong()}}
+{\footnotesize\ttfamily void rt\+::\+GUI\+::set\+Song (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{song\+String }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1GUI_a1d7a2787aa9de40df2230d9f09f09cb9}\label{classrt_1_1GUI_a1d7a2787aa9de40df2230d9f09f09cb9}} 
+\index{rt::GUI@{rt::GUI}!stopSong@{stopSong}}
+\index{stopSong@{stopSong}!rt::GUI@{rt::GUI}}
+\doxysubsubsection{\texorpdfstring{stopSong()}{stopSong()}}
+{\footnotesize\ttfamily void rt\+::\+GUI\+::stop\+Song (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{Graphics_8hpp}{Graphics.\+hpp}}\item 
+client/\+Graphic/source/\mbox{\hyperlink{Graphics_8cpp}{Graphics.\+cpp}}\end{DoxyCompactItemize}

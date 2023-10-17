@@ -1,0 +1,59 @@
+\hypertarget{PageSetting_8hpp_source}{}\doxysection{Page\+Setting.\+hpp}
+\label{PageSetting_8hpp_source}\index{client/Graphic/include/PageSetting.hpp@{client/Graphic/include/PageSetting.hpp}}
+\mbox{\hyperlink{PageSetting_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ EPITECH\ PROJECT,\ 2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**\ Setting.h}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ File\ description:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**\ Setting}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_SETTING\_PAGE\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\ \ \ \ \#define\ \_SETTING\_PAGE\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{IPage_8hpp}{IPage.hpp}}"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacert}{rt}}\ \{}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrt_1_1SettingPage}{SettingPage}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classrt_1_1IPage}{IPage}}\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1SettingPage}{SettingPage}}(}
+\DoxyCodeLine{00021\ \ \ \ \ \ \ \ \ \ \ \ \ std::shared\_ptr<sf::RenderWindow>\ window,}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Event\ \textcolor{keyword}{const}\ \&event}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1SettingPage_a0cb0cf257140ee994d6080b728c3c46d}{\string~SettingPage}}(\textcolor{keywordtype}{void})\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1SettingPage_aa38878f6eb8279fe8febf69fbc500ba8}{buildInputs}}(}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Vector2f\ labelPos,}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Vector2f\ inputPos,}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Vector2f\ inputTextPos,}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \textcolor{keyword}{const}\ \&ecart}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1SettingPage_a4d73760ee6c6b6e2244d43a5aca1b731}{buildButtons}}(}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Vector2f\ rectPos,}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Vector2f\ textPos,}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \textcolor{keyword}{const}\ \&ecartX}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ std::string\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classrt_1_1SettingPage_a0f4ebaf8f44b2fbeb0acdd21eff7e213}{run}}(std::vector<std::unique\_ptr<AnimatedRectangle>>\ \&personnages);}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ std::string\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classrt_1_1SettingPage_ac8bd063ea884d0a8006d211cfbafd8c2}{roomPage}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ std::string\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classrt_1_1SettingPage_a145e48e196ec56c15d7c849fd457f6d5}{networkPage}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ std::string\ \_subPage;}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}}\ \_backgroundImage;}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}}\ \_gradient;}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text}{Text}}\ \_title;}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Button}{Button}}\ \_backButton;}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ std::map<std::string,\ rt::Input>\ \_inputs;}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Button}{Button}}\ \_nextPageButton;}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \ \ std::vector<rt::Room>\ \_rooms;}
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Button}{Button}}\ \_addRoomButton;}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ sf::Vector2f\ \_roomPos;}
+\DoxyCodeLine{00054\ \ \ \ \ \};}
+\DoxyCodeLine{00055\ \}}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

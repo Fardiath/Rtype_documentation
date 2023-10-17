@@ -1,0 +1,221 @@
+\hypertarget{classrt_1_1Button}{}\doxysection{rt\+::Button Class Reference}
+\label{classrt_1_1Button}\index{rt::Button@{rt::Button}}
+
+
+create button class  
+
+
+
+
+{\ttfamily \#include $<$Button.\+hpp$>$}
+
+Inheritance diagram for rt\+::Button\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classrt_1_1Button}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1Button_aa4f8813f690bb94168eb2cd7edff2fa2}{Button}} (void)=default
+\item 
+\mbox{\hyperlink{classrt_1_1Button_a2598372bcdb4f904535239aead3e90fb}{Button}} (\mbox{\hyperlink{classrt_1_1Rectangle}{rt\+::\+Rectangle}} const \&text\+Background, \mbox{\hyperlink{classrt_1_1Text}{rt\+::\+Text}} const \&text\+String)
+\item 
+\mbox{\hyperlink{classrt_1_1Button_a77328140fb4fc54ddcd90a33e5f04cdc}{Button}} (\mbox{\hyperlink{classrt_1_1Button}{Button}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Button}{Button}} \& \mbox{\hyperlink{classrt_1_1Button_a481a022a7b5cfbe424be1b651196f540}{operator=}} (\mbox{\hyperlink{classrt_1_1Button}{Button}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Button_aeb4ec12df772b80bdaa5ac3687b6c205}{$\sim$\+Button}} (void)=default
+\item 
+void \mbox{\hyperlink{classrt_1_1Button_accd93cde90db815dcb41caffe754cfb4}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+bool \mbox{\hyperlink{classrt_1_1Button_ac8d7d84ce25151abe4543c66674131bf}{react}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window, sf\+::\+Vector2f const zoom=sf\+::\+Vector2f(3, 3))
+\item 
+void \mbox{\hyperlink{classrt_1_1Button_a3ec65c3452b6dc4701cb751b1329f9c2}{set\+Position}} (sf\+::\+Vector2f const \&position)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1Rectangle}{rt\+::\+Rectangle}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a0c89496ce6470fad61d996763e532ae5}{Rectangle}} (void)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_aea61bf50ea67d6425f2b90b4cdce5a9d}{Rectangle}} (sf\+::\+Vector2f const \&rect\+Pos, sf\+::\+Vector2f const \&rect\+Size, std\+::string const \&image\+Src)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a09e8afee4e0402ab41a9549f91b9a17e}{Rectangle}} (sf\+::\+Vector2f const \&rect\+Pos, sf\+::\+Vector2f const \&rect\+Size, sf\+::\+Color const \&full\+Color=sf\+::\+Color\+::\+Transparent)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_ae58053dff25ac4166f9b077b9f87f46c}{Rectangle}} (\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} \& \mbox{\hyperlink{classrt_1_1Rectangle_a06cb5c195da15d34176f2958bd2d57e1}{operator=}} (\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a2b597a0332f7df2e0928f2271c322216}{$\sim$\+Rectangle}} (void)=default
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_a8f52d79b359905cb5fc89dde03242bf1}{restore}} (void)
+\item 
+sf\+::\+Rectangle\+Shape \& \mbox{\hyperlink{classrt_1_1Rectangle_ad5d8f849f3bf6535cab087884f89ca73}{get}} (void)
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_ab12a29fa2412155201aceca3e4a80c1d}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a4fd1385f25f103d752c1807db3447415}{if\+Hover}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a7d62d836055a3dd1af225e419d149e7f}{if\+Clicked}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+\mbox{\hyperlink{namespacert_a08f089eb1262b0c30a2825e3d07b4e49}{rt\+::\+Key\+Event}} const \mbox{\hyperlink{classrt_1_1Rectangle_afddc60490bc26a492508edf1437d6a6b}{get\+Event}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window)
+\item 
+sf\+::\+Vector2f const \mbox{\hyperlink{classrt_1_1Rectangle_afa023a2f94fd7fff15d0427177b406ed}{get\+Position}} (void) const
+\item 
+virtual void \mbox{\hyperlink{classrt_1_1Rectangle_a16d8e9c5aa7b70fe74d8c8c54ca110cc}{set\+Position}} (sf\+::\+Vector2f const \&position)
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_ad38776f87dbbeb97f87bd39fe0a4e495}{update\+Position}} (sf\+::\+Vector2f const \&pos\+Ecart)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1IObject}{rt\+::\+IObject}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1IObject_a66d764973d45cc175c3b0cd8f4ec0b09}{$\sim$\+IObject}} (void)=default
+\item 
+virtual void \mbox{\hyperlink{classrt_1_1IObject_ac2efb29634d6dd58f5fb4cf47a30e189}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const =0
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1Rectangle}{rt\+::\+Rectangle}}}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Rectangle\+Shape \mbox{\hyperlink{classrt_1_1Rectangle_ae1bfd0960100ea8c91012beb3b18ea66}{\+\_\+rect}}
+\item 
+sf\+::\+Texture \mbox{\hyperlink{classrt_1_1Rectangle_a6709c49d1c553d29c10c15cc0b25eec8}{\+\_\+texture}}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classrt_1_1Rectangle_a8cd19b08de5c56a2973b7446cf5651ef}{\+\_\+size}}
+\item 
+\mbox{\hyperlink{namespacert_a08f089eb1262b0c30a2825e3d07b4e49}{rt\+::\+Key\+Event}} \mbox{\hyperlink{classrt_1_1Rectangle_a9e4c97b5071246d7ce9d14c6107b1c73}{\+\_\+current\+Event}}
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a6d0780a906a4185899bae4fef75174d6}{\+\_\+last\+Click}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1IObject}{rt\+::\+IObject}}}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classrt_1_1IObject_a13b24a0081333d7f0a7367da495f21a8}{\+\_\+position}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+create button class 
+
+draw window
+
+set position
+
+react
+
+implement equality operator
+
+Construct a new \mbox{\hyperlink{classrt_1_1Button}{Button}}\+:\+: \mbox{\hyperlink{classrt_1_1Button}{Button}} object.
+
+0
+
+
+\begin{DoxyParams}{Parameters}
+{\em background} & \\
+\hline
+{\em text} & \\
+\hline
+{\em copy} & \\
+\hline
+{\em copy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classrt_1_1Button}{Button}}\&
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \\
+\hline
+{\em my\+Event} & \\
+\hline
+{\em zoom} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Position} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$\ast$ void
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1Button_aa4f8813f690bb94168eb2cd7edff2fa2}\label{classrt_1_1Button_aa4f8813f690bb94168eb2cd7edff2fa2}} 
+\index{rt::Button@{rt::Button}!Button@{Button}}
+\index{Button@{Button}!rt::Button@{rt::Button}}
+\doxysubsubsection{\texorpdfstring{Button()}{Button()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily rt\+::\+Button\+::\+Button (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{classrt_1_1Button_a2598372bcdb4f904535239aead3e90fb}\label{classrt_1_1Button_a2598372bcdb4f904535239aead3e90fb}} 
+\index{rt::Button@{rt::Button}!Button@{Button}}
+\index{Button@{Button}!rt::Button@{rt::Button}}
+\doxysubsubsection{\texorpdfstring{Button()}{Button()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily rt\+::\+Button\+::\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Rectangle}{rt\+::\+Rectangle}} const \&}]{text\+Background,  }\item[{\mbox{\hyperlink{classrt_1_1Text}{rt\+::\+Text}} const \&}]{text\+String }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Button_a77328140fb4fc54ddcd90a33e5f04cdc}\label{classrt_1_1Button_a77328140fb4fc54ddcd90a33e5f04cdc}} 
+\index{rt::Button@{rt::Button}!Button@{Button}}
+\index{Button@{Button}!rt::Button@{rt::Button}}
+\doxysubsubsection{\texorpdfstring{Button()}{Button()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily rt\+::\+Button\+::\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Button}{Button}} const \&}]{copy }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Button_aeb4ec12df772b80bdaa5ac3687b6c205}\label{classrt_1_1Button_aeb4ec12df772b80bdaa5ac3687b6c205}} 
+\index{rt::Button@{rt::Button}!````~Button@{$\sim$Button}}
+\index{````~Button@{$\sim$Button}!rt::Button@{rt::Button}}
+\doxysubsubsection{\texorpdfstring{$\sim$Button()}{~Button()}}
+{\footnotesize\ttfamily rt\+::\+Button\+::$\sim$\+Button (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1Button_accd93cde90db815dcb41caffe754cfb4}\label{classrt_1_1Button_accd93cde90db815dcb41caffe754cfb4}} 
+\index{rt::Button@{rt::Button}!draw@{draw}}
+\index{draw@{draw}!rt::Button@{rt::Button}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void rt\+::\+Button\+::draw (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classrt_1_1IObject_ac2efb29634d6dd58f5fb4cf47a30e189}{rt\+::\+IObject}}.
+
+\mbox{\Hypertarget{classrt_1_1Button_a481a022a7b5cfbe424be1b651196f540}\label{classrt_1_1Button_a481a022a7b5cfbe424be1b651196f540}} 
+\index{rt::Button@{rt::Button}!operator=@{operator=}}
+\index{operator=@{operator=}!rt::Button@{rt::Button}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrt_1_1Button}{Button}} \& rt\+::\+Button\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Button}{Button}} const \&}]{copy }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Button_ac8d7d84ce25151abe4543c66674131bf}\label{classrt_1_1Button_ac8d7d84ce25151abe4543c66674131bf}} 
+\index{rt::Button@{rt::Button}!react@{react}}
+\index{react@{react}!rt::Button@{rt::Button}}
+\doxysubsubsection{\texorpdfstring{react()}{react()}}
+{\footnotesize\ttfamily bool rt\+::\+Button\+::react (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window,  }\item[{sf\+::\+Vector2f const}]{zoom = {\ttfamily sf\+:\+:Vector2f(3,~3)} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Button_a3ec65c3452b6dc4701cb751b1329f9c2}\label{classrt_1_1Button_a3ec65c3452b6dc4701cb751b1329f9c2}} 
+\index{rt::Button@{rt::Button}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!rt::Button@{rt::Button}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void rt\+::\+Button\+::set\+Position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f const \&}]{position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classrt_1_1Rectangle_a16d8e9c5aa7b70fe74d8c8c54ca110cc}{rt\+::\+Rectangle}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{Button_8hpp}{Button.\+hpp}}\item 
+client/\+Graphic/source/\+Objects/\mbox{\hyperlink{Button_8cpp}{Button.\+cpp}}\end{DoxyCompactItemize}
