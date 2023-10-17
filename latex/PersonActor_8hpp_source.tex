@@ -1,0 +1,34 @@
+\hypertarget{PersonActor_8hpp_source}{}\doxysection{Person\+Actor.\+hpp}
+\label{PersonActor_8hpp_source}\index{client/Graphic/include/PersonActor.hpp@{client/Graphic/include/PersonActor.hpp}}
+\mbox{\hyperlink{PersonActor_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ EPITECH\ PROJECT,\ 2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**\ ActorPerson.h}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ File\ description:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**\ ActorPerson}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_ACTOR\_PERSON\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\ \ \ \ \#define\ \_ACTOR\_PERSON\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{AnimatedRectangle_8hpp}{AnimatedRectangle.hpp}}"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacert}{rt}}\ \{}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrt_1_1ActorPerson}{ActorPerson}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{AnimatedRectangle}}\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1ActorPerson_a7c751c049ac308804ad1a3e4b602d6f7}{ActorPerson}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00021\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1ActorPerson_a6e9fdaac95d045262d6220352edad0bb}{\string~ActorPerson}}(\textcolor{keywordtype}{void})\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classrt_1_1ActorPerson_a34dd392e195ff336a720534bcb75f3b9}{ifVisible}}(sf::Vector2f\ \textcolor{keyword}{const}\ \&posEcart)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1ActorPerson_a4da26cd381846294ca5cc3a56341bdaa}{react}}(sf::Event\ \textcolor{keyword}{const}\ \&event);}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{float}\ \_life;}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ std::unique\_ptr<rt::Rectangle>\ \_lifeBorder;}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ std::unique\_ptr<rt::Rectangle>\ \_lifeProgress;}
+\DoxyCodeLine{00029\ \ \ \ \ \};}
+\DoxyCodeLine{00030\ \}}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

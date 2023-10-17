@@ -1,0 +1,84 @@
+\hypertarget{classrt_1_1IPage}{}\doxysection{rt\+::IPage Class Reference}
+\label{classrt_1_1IPage}\index{rt::IPage@{rt::IPage}}
+
+
+create IPgae class  
+
+
+
+
+{\ttfamily \#include $<$IPage.\+hpp$>$}
+
+Inheritance diagram for rt\+::IPage\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classrt_1_1IPage}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1IPage_a382ada6dbefc93b6c6a83e0ce99a02e6}{IPage}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window, sf\+::\+Event const \&event)
+\item 
+virtual \mbox{\hyperlink{classrt_1_1IPage_a8faea6f1e12d30e8106d6b3b93e9a490}{$\sim$\+IPage}} (void)=default
+\item 
+virtual std\+::string const \mbox{\hyperlink{classrt_1_1IPage_a305d9f52c693a13955f7c7d641370e7f}{run}} (std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&personnages)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ \mbox{\hyperlink{classrt_1_1IPage_a8962a3d2fd703798257dc4e880249db1}{\+\_\+window}}
+\item 
+sf\+::\+Event const  \& \mbox{\hyperlink{classrt_1_1IPage_a961236ac0bc6c782681cf39b86167aee}{\+\_\+event}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+create IPgae class 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1IPage_a382ada6dbefc93b6c6a83e0ce99a02e6}\label{classrt_1_1IPage_a382ada6dbefc93b6c6a83e0ce99a02e6}} 
+\index{rt::IPage@{rt::IPage}!IPage@{IPage}}
+\index{IPage@{IPage}!rt::IPage@{rt::IPage}}
+\doxysubsubsection{\texorpdfstring{IPage()}{IPage()}}
+{\footnotesize\ttfamily rt\+::\+IPage\+::\+IPage (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window,  }\item[{sf\+::\+Event const \&}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classrt_1_1IPage_a8faea6f1e12d30e8106d6b3b93e9a490}\label{classrt_1_1IPage_a8faea6f1e12d30e8106d6b3b93e9a490}} 
+\index{rt::IPage@{rt::IPage}!````~IPage@{$\sim$IPage}}
+\index{````~IPage@{$\sim$IPage}!rt::IPage@{rt::IPage}}
+\doxysubsubsection{\texorpdfstring{$\sim$IPage()}{~IPage()}}
+{\footnotesize\ttfamily virtual rt\+::\+IPage\+::$\sim$\+IPage (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1IPage_a305d9f52c693a13955f7c7d641370e7f}\label{classrt_1_1IPage_a305d9f52c693a13955f7c7d641370e7f}} 
+\index{rt::IPage@{rt::IPage}!run@{run}}
+\index{run@{run}!rt::IPage@{rt::IPage}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily virtual std\+::string const rt\+::\+IPage\+::run (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&}]{personnages }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classrt_1_1GamePage_a9f5707603765f215a9115af7b47d9c07}{rt\+::\+Game\+Page}}, \mbox{\hyperlink{classrt_1_1MenuPage_afa189463bebc9268aa58165e8ec21c38}{rt\+::\+Menu\+Page}}, and \mbox{\hyperlink{classrt_1_1SettingPage_a0f4ebaf8f44b2fbeb0acdd21eff7e213}{rt\+::\+Setting\+Page}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classrt_1_1IPage_a961236ac0bc6c782681cf39b86167aee}\label{classrt_1_1IPage_a961236ac0bc6c782681cf39b86167aee}} 
+\index{rt::IPage@{rt::IPage}!\_event@{\_event}}
+\index{\_event@{\_event}!rt::IPage@{rt::IPage}}
+\doxysubsubsection{\texorpdfstring{\_event}{\_event}}
+{\footnotesize\ttfamily sf\+::\+Event const\& rt\+::\+IPage\+::\+\_\+event\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classrt_1_1IPage_a8962a3d2fd703798257dc4e880249db1}\label{classrt_1_1IPage_a8962a3d2fd703798257dc4e880249db1}} 
+\index{rt::IPage@{rt::IPage}!\_window@{\_window}}
+\index{\_window@{\_window}!rt::IPage@{rt::IPage}}
+\doxysubsubsection{\texorpdfstring{\_window}{\_window}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$sf\+::\+Render\+Window$>$ rt\+::\+IPage\+::\+\_\+window\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{IPage_8hpp}{IPage.\+hpp}}\end{DoxyCompactItemize}

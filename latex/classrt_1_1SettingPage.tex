@@ -1,0 +1,154 @@
+\hypertarget{classrt_1_1SettingPage}{}\doxysection{rt\+::Setting\+Page Class Reference}
+\label{classrt_1_1SettingPage}\index{rt::SettingPage@{rt::SettingPage}}
+
+
+Construct a new Setting Page.  
+
+
+
+
+{\ttfamily \#include $<$Page\+Setting.\+hpp$>$}
+
+Inheritance diagram for rt\+::Setting\+Page\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classrt_1_1SettingPage}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1SettingPage_a1893984094724a003f06e09c6de6e60b}{Setting\+Page}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window, sf\+::\+Event const \&event)
+\item 
+\mbox{\hyperlink{classrt_1_1SettingPage_a0cb0cf257140ee994d6080b728c3c46d}{$\sim$\+Setting\+Page}} (void)=default
+\item 
+void \mbox{\hyperlink{classrt_1_1SettingPage_aa38878f6eb8279fe8febf69fbc500ba8}{build\+Inputs}} (sf\+::\+Vector2f label\+Pos, sf\+::\+Vector2f input\+Pos, sf\+::\+Vector2f input\+Text\+Pos, int const \&ecart)
+\item 
+void \mbox{\hyperlink{classrt_1_1SettingPage_a4d73760ee6c6b6e2244d43a5aca1b731}{build\+Buttons}} (sf\+::\+Vector2f rect\+Pos, sf\+::\+Vector2f text\+Pos, int const \&ecartX)
+\item 
+std\+::string const \mbox{\hyperlink{classrt_1_1SettingPage_a0f4ebaf8f44b2fbeb0acdd21eff7e213}{run}} (std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&personnages)
+\item 
+std\+::string const \mbox{\hyperlink{classrt_1_1SettingPage_ac8bd063ea884d0a8006d211cfbafd8c2}{room\+Page}} (void)
+\item 
+std\+::string const \mbox{\hyperlink{classrt_1_1SettingPage_a145e48e196ec56c15d7c849fd457f6d5}{network\+Page}} (void)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1IPage}{rt\+::\+IPage}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1IPage_a382ada6dbefc93b6c6a83e0ce99a02e6}{IPage}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window, sf\+::\+Event const \&event)
+\item 
+virtual \mbox{\hyperlink{classrt_1_1IPage_a8faea6f1e12d30e8106d6b3b93e9a490}{$\sim$\+IPage}} (void)=default
+\item 
+virtual std\+::string const \mbox{\hyperlink{classrt_1_1IPage_a305d9f52c693a13955f7c7d641370e7f}{run}} (std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&personnages)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1IPage}{rt\+::\+IPage}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ \mbox{\hyperlink{classrt_1_1IPage_a8962a3d2fd703798257dc4e880249db1}{\+\_\+window}}
+\item 
+sf\+::\+Event const  \& \mbox{\hyperlink{classrt_1_1IPage_a961236ac0bc6c782681cf39b86167aee}{\+\_\+event}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Construct a new Setting Page. 
+
+build room page
+
+build network page
+
+run
+
+build Buttons
+
+build inputs
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \\
+\hline
+{\em event} & \\
+\hline
+{\em my\+Event} & \\
+\hline
+{\em label\+Pos} & \\
+\hline
+{\em input\+Pos} & \\
+\hline
+{\em input\+Text\+Pos} & \\
+\hline
+{\em ecartY} & \\
+\hline
+{\em rect\+Pos} & \\
+\hline
+{\em text\+Pos} & \\
+\hline
+{\em ecartX} & \\
+\hline
+{\em personnages} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+string const
+
+string const 
+\end{DoxyReturn}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1SettingPage_a1893984094724a003f06e09c6de6e60b}\label{classrt_1_1SettingPage_a1893984094724a003f06e09c6de6e60b}} 
+\index{rt::SettingPage@{rt::SettingPage}!SettingPage@{SettingPage}}
+\index{SettingPage@{SettingPage}!rt::SettingPage@{rt::SettingPage}}
+\doxysubsubsection{\texorpdfstring{SettingPage()}{SettingPage()}}
+{\footnotesize\ttfamily rt\+::\+Setting\+Page\+::\+Setting\+Page (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window,  }\item[{sf\+::\+Event const \&}]{event }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1SettingPage_a0cb0cf257140ee994d6080b728c3c46d}\label{classrt_1_1SettingPage_a0cb0cf257140ee994d6080b728c3c46d}} 
+\index{rt::SettingPage@{rt::SettingPage}!````~SettingPage@{$\sim$SettingPage}}
+\index{````~SettingPage@{$\sim$SettingPage}!rt::SettingPage@{rt::SettingPage}}
+\doxysubsubsection{\texorpdfstring{$\sim$SettingPage()}{~SettingPage()}}
+{\footnotesize\ttfamily rt\+::\+Setting\+Page\+::$\sim$\+Setting\+Page (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1SettingPage_a4d73760ee6c6b6e2244d43a5aca1b731}\label{classrt_1_1SettingPage_a4d73760ee6c6b6e2244d43a5aca1b731}} 
+\index{rt::SettingPage@{rt::SettingPage}!buildButtons@{buildButtons}}
+\index{buildButtons@{buildButtons}!rt::SettingPage@{rt::SettingPage}}
+\doxysubsubsection{\texorpdfstring{buildButtons()}{buildButtons()}}
+{\footnotesize\ttfamily void rt\+::\+Setting\+Page\+::build\+Buttons (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{rect\+Pos,  }\item[{sf\+::\+Vector2f}]{text\+Pos,  }\item[{int const \&}]{ecartX }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1SettingPage_aa38878f6eb8279fe8febf69fbc500ba8}\label{classrt_1_1SettingPage_aa38878f6eb8279fe8febf69fbc500ba8}} 
+\index{rt::SettingPage@{rt::SettingPage}!buildInputs@{buildInputs}}
+\index{buildInputs@{buildInputs}!rt::SettingPage@{rt::SettingPage}}
+\doxysubsubsection{\texorpdfstring{buildInputs()}{buildInputs()}}
+{\footnotesize\ttfamily void rt\+::\+Setting\+Page\+::build\+Inputs (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{label\+Pos,  }\item[{sf\+::\+Vector2f}]{input\+Pos,  }\item[{sf\+::\+Vector2f}]{input\+Text\+Pos,  }\item[{int const \&}]{ecart }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1SettingPage_a145e48e196ec56c15d7c849fd457f6d5}\label{classrt_1_1SettingPage_a145e48e196ec56c15d7c849fd457f6d5}} 
+\index{rt::SettingPage@{rt::SettingPage}!networkPage@{networkPage}}
+\index{networkPage@{networkPage}!rt::SettingPage@{rt::SettingPage}}
+\doxysubsubsection{\texorpdfstring{networkPage()}{networkPage()}}
+{\footnotesize\ttfamily string const rt\+::\+Setting\+Page\+::network\+Page (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1SettingPage_ac8bd063ea884d0a8006d211cfbafd8c2}\label{classrt_1_1SettingPage_ac8bd063ea884d0a8006d211cfbafd8c2}} 
+\index{rt::SettingPage@{rt::SettingPage}!roomPage@{roomPage}}
+\index{roomPage@{roomPage}!rt::SettingPage@{rt::SettingPage}}
+\doxysubsubsection{\texorpdfstring{roomPage()}{roomPage()}}
+{\footnotesize\ttfamily string const rt\+::\+Setting\+Page\+::room\+Page (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1SettingPage_a0f4ebaf8f44b2fbeb0acdd21eff7e213}\label{classrt_1_1SettingPage_a0f4ebaf8f44b2fbeb0acdd21eff7e213}} 
+\index{rt::SettingPage@{rt::SettingPage}!run@{run}}
+\index{run@{run}!rt::SettingPage@{rt::SettingPage}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily string const rt\+::\+Setting\+Page\+::run (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classrt_1_1AnimatedRectangle}{Animated\+Rectangle}} $>$ $>$ \&}]{personnages }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classrt_1_1IPage_a305d9f52c693a13955f7c7d641370e7f}{rt\+::\+IPage}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{PageSetting_8hpp}{Page\+Setting.\+hpp}}\item 
+client/\+Graphic/source/\+Pages/\mbox{\hyperlink{Setting_8cpp}{Setting.\+cpp}}\end{DoxyCompactItemize}

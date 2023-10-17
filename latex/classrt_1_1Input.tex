@@ -1,0 +1,184 @@
+\hypertarget{classrt_1_1Input}{}\doxysection{rt\+::Input Class Reference}
+\label{classrt_1_1Input}\index{rt::Input@{rt::Input}}
+
+
+create \mbox{\hyperlink{classrt_1_1Input}{Input}} class  
+
+
+
+
+{\ttfamily \#include $<$Input.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1Input_a180be1a0ec01f540c93c1927a4c61e32}{Input}} (void)
+\item 
+\mbox{\hyperlink{classrt_1_1Input_a1491d99c7287f12a273d8f9008899008}{Input}} (\mbox{\hyperlink{classrt_1_1Text}{rt\+::\+Text}} const \&label, \mbox{\hyperlink{classrt_1_1Rectangle}{rt\+::\+Rectangle}} const \&input\+Rect, \mbox{\hyperlink{classrt_1_1Text}{rt\+::\+Text}} const \&input\+Text)
+\item 
+\mbox{\hyperlink{classrt_1_1Input_aa7e3602a56ed6cf4a982eb198682522e}{Input}} (\mbox{\hyperlink{classrt_1_1Input}{Input}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Input_a4cb91c397fafc3876637fa73fe77daad}{$\sim$\+Input}} (void)=default
+\item 
+\mbox{\hyperlink{classrt_1_1Input}{Input}} \& \mbox{\hyperlink{classrt_1_1Input_a139aa9337e76e51653735994fb7b0647}{operator=}} (\mbox{\hyperlink{classrt_1_1Input}{Input}} const \&copy)
+\item 
+void \mbox{\hyperlink{classrt_1_1Input_a4c13cc75c31fb9ca306672e313b265f2}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+sf\+::\+Rectangle\+Shape \& \mbox{\hyperlink{classrt_1_1Input_a3e9f30311d9de479f7aaab3cb2e8a13a}{get}} (void)
+\item 
+std\+::string \mbox{\hyperlink{classrt_1_1Input_ab8167efedbb4206dfe35624126cea3d8}{get\+String}} (void)
+\item 
+bool \mbox{\hyperlink{classrt_1_1Input_a2b393ff31d24e69c2b9e1c6412c9d436}{if\+Active}} (void)
+\item 
+void \mbox{\hyperlink{classrt_1_1Input_a8f4404253d18a6c8e34645b9a00ad49a}{set\+Active}} (bool active)
+\item 
+bool \mbox{\hyperlink{classrt_1_1Input_a85a2e85f8ff76bf9c4ab87dea7a54683}{react}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window, sf\+::\+Event const \&event)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+create \mbox{\hyperlink{classrt_1_1Input}{Input}} class 
+
+draw event
+
+react
+
+get string
+
+get valu
+
+set valu
+
+check condition
+
+Implement equal operator.
+
+Construct a new \mbox{\hyperlink{classrt_1_1Input}{Input}}\+:\+: \mbox{\hyperlink{classrt_1_1Input}{Input}} object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em label} & \\
+\hline
+{\em input\+Rect} & \\
+\hline
+{\em input\+Text} & \\
+\hline
+{\em copy} & \\
+\hline
+{\em copy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classrt_1_1Input}{Input}}\&
+
+true 
+
+false
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em active} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Rectangle\+Shape\&
+
+string
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \\
+\hline
+{\em event} & \\
+\hline
+{\em my\+Event} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1Input_a180be1a0ec01f540c93c1927a4c61e32}\label{classrt_1_1Input_a180be1a0ec01f540c93c1927a4c61e32}} 
+\index{rt::Input@{rt::Input}!Input@{Input}}
+\index{Input@{Input}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{Input()}{Input()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily rt\+::\+Input\+::\+Input (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Input_a1491d99c7287f12a273d8f9008899008}\label{classrt_1_1Input_a1491d99c7287f12a273d8f9008899008}} 
+\index{rt::Input@{rt::Input}!Input@{Input}}
+\index{Input@{Input}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{Input()}{Input()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily rt\+::\+Input\+::\+Input (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Text}{rt\+::\+Text}} const \&}]{label,  }\item[{\mbox{\hyperlink{classrt_1_1Rectangle}{rt\+::\+Rectangle}} const \&}]{input\+Rect,  }\item[{\mbox{\hyperlink{classrt_1_1Text}{rt\+::\+Text}} const \&}]{input\+Text }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Input_aa7e3602a56ed6cf4a982eb198682522e}\label{classrt_1_1Input_aa7e3602a56ed6cf4a982eb198682522e}} 
+\index{rt::Input@{rt::Input}!Input@{Input}}
+\index{Input@{Input}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{Input()}{Input()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily rt\+::\+Input\+::\+Input (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Input}{Input}} const \&}]{copy }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Input_a4cb91c397fafc3876637fa73fe77daad}\label{classrt_1_1Input_a4cb91c397fafc3876637fa73fe77daad}} 
+\index{rt::Input@{rt::Input}!````~Input@{$\sim$Input}}
+\index{````~Input@{$\sim$Input}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{$\sim$Input()}{~Input()}}
+{\footnotesize\ttfamily rt\+::\+Input\+::$\sim$\+Input (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1Input_a4c13cc75c31fb9ca306672e313b265f2}\label{classrt_1_1Input_a4c13cc75c31fb9ca306672e313b265f2}} 
+\index{rt::Input@{rt::Input}!draw@{draw}}
+\index{draw@{draw}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void rt\+::\+Input\+::draw (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classrt_1_1Input_a3e9f30311d9de479f7aaab3cb2e8a13a}\label{classrt_1_1Input_a3e9f30311d9de479f7aaab3cb2e8a13a}} 
+\index{rt::Input@{rt::Input}!get@{get}}
+\index{get@{get}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape \& rt\+::\+Input\+::get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Input_ab8167efedbb4206dfe35624126cea3d8}\label{classrt_1_1Input_ab8167efedbb4206dfe35624126cea3d8}} 
+\index{rt::Input@{rt::Input}!getString@{getString}}
+\index{getString@{getString}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{getString()}{getString()}}
+{\footnotesize\ttfamily string rt\+::\+Input\+::get\+String (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Input_a2b393ff31d24e69c2b9e1c6412c9d436}\label{classrt_1_1Input_a2b393ff31d24e69c2b9e1c6412c9d436}} 
+\index{rt::Input@{rt::Input}!ifActive@{ifActive}}
+\index{ifActive@{ifActive}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{ifActive()}{ifActive()}}
+{\footnotesize\ttfamily bool rt\+::\+Input\+::if\+Active (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Input_a139aa9337e76e51653735994fb7b0647}\label{classrt_1_1Input_a139aa9337e76e51653735994fb7b0647}} 
+\index{rt::Input@{rt::Input}!operator=@{operator=}}
+\index{operator=@{operator=}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrt_1_1Input}{Input}} \& rt\+::\+Input\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Input}{Input}} const \&}]{copy }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Input_a85a2e85f8ff76bf9c4ab87dea7a54683}\label{classrt_1_1Input_a85a2e85f8ff76bf9c4ab87dea7a54683}} 
+\index{rt::Input@{rt::Input}!react@{react}}
+\index{react@{react}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{react()}{react()}}
+{\footnotesize\ttfamily bool rt\+::\+Input\+::react (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window,  }\item[{sf\+::\+Event const \&}]{event }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Input_a8f4404253d18a6c8e34645b9a00ad49a}\label{classrt_1_1Input_a8f4404253d18a6c8e34645b9a00ad49a}} 
+\index{rt::Input@{rt::Input}!setActive@{setActive}}
+\index{setActive@{setActive}!rt::Input@{rt::Input}}
+\doxysubsubsection{\texorpdfstring{setActive()}{setActive()}}
+{\footnotesize\ttfamily void rt\+::\+Input\+::set\+Active (\begin{DoxyParamCaption}\item[{bool}]{active }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{Input_8hpp}{Input.\+hpp}}\item 
+client/\+Graphic/source/\+Objects/\mbox{\hyperlink{Input_8cpp}{Input.\+cpp}}\end{DoxyCompactItemize}

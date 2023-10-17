@@ -1,0 +1,53 @@
+\hypertarget{Input_8hpp_source}{}\doxysection{Input.\+hpp}
+\label{Input_8hpp_source}\index{client/Graphic/include/Input.hpp@{client/Graphic/include/Input.hpp}}
+\mbox{\hyperlink{Input_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ EPITECH\ PROJECT,\ 2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**\ Input.h}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ File\ description:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**\ Input}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_INPUT\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\ \ \ \ \#define\ \_INPUT\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{Rectangle_8hpp}{Rectangle.hpp}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{Text_8hpp}{Text.hpp}}"{}}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacert}{rt}}\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrt_1_1Input}{Input}}\ \{}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00021\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Input_a180be1a0ec01f540c93c1927a4c61e32}{Input}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Input_a180be1a0ec01f540c93c1927a4c61e32}{Input}}(}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text}{rt::Text}}\ \textcolor{keyword}{const}\ \&label,}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Rectangle}{rt::Rectangle}}\ \textcolor{keyword}{const}\ \&inputRect,}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text}{rt::Text}}\ \textcolor{keyword}{const}\ \&inputText}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Input_a180be1a0ec01f540c93c1927a4c61e32}{Input}}(\mbox{\hyperlink{classrt_1_1Input}{Input}}\ \textcolor{keyword}{const}\ \&copy);}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Input_a4cb91c397fafc3876637fa73fe77daad}{\string~Input}}(\textcolor{keywordtype}{void})\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Input}{Input}}\&\ \mbox{\hyperlink{classrt_1_1Input_a139aa9337e76e51653735994fb7b0647}{operator=}}(\mbox{\hyperlink{classrt_1_1Input}{Input}}\ \textcolor{keyword}{const}\ \&copy);}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1Input_a4c13cc75c31fb9ca306672e313b265f2}{draw}}(std::shared\_ptr<sf::RenderWindow>\ window)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ sf::RectangleShape\ \&\mbox{\hyperlink{classrt_1_1Input_a3e9f30311d9de479f7aaab3cb2e8a13a}{get}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classrt_1_1Input_ab8167efedbb4206dfe35624126cea3d8}{getString}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classrt_1_1Input_a2b393ff31d24e69c2b9e1c6412c9d436}{ifActive}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1Input_a8f4404253d18a6c8e34645b9a00ad49a}{setActive}}(\textcolor{keywordtype}{bool}\ active);}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classrt_1_1Input_a85a2e85f8ff76bf9c4ab87dea7a54683}{react}}(}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \ \ \ \ std::shared\_ptr<sf::RenderWindow>\ window,}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Event\ \textcolor{keyword}{const}\ \&event}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ sf::Clock\ \_clock;}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{bool}\ \_active;}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text}{rt::Text}}\ \_label;}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Rectangle}{rt::Rectangle}}\ \_inputRect;}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text}{rt::Text}}\ \_inputText;}
+\DoxyCodeLine{00047\ \ \ \ \ \ \ \ \ std::string\ \_textStr;}
+\DoxyCodeLine{00048\ \ \ \ \ \};}
+\DoxyCodeLine{00049\ \}}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

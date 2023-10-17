@@ -1,0 +1,50 @@
+\hypertarget{Text_8hpp_source}{}\doxysection{Text.\+hpp}
+\label{Text_8hpp_source}\index{client/Graphic/include/Text.hpp@{client/Graphic/include/Text.hpp}}
+\mbox{\hyperlink{Text_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ EPITECH\ PROJECT,\ 2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**\ Text.hpp}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ File\ description:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**\ Text}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_TEXT\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\ \ \ \ \#define\ \_TEXT\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{IObject_8hpp}{IObject.hpp}}"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacert}{rt}}\ \{}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrt_1_1Text}{Text}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classrt_1_1IObject}{IObject}}\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text_a0967b186fd918fb11fdbfef4d29b237a}{Text}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00021\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text_afb7848cbd216c8a217a8cac898932493}{Text}}(}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Vector2f\ \textcolor{keyword}{const}\ \&textPosition,}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ \ \ \ \ std::string\ \textcolor{keyword}{const}\ \&text,}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \textcolor{keyword}{const}\ \&size,}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Color\ \textcolor{keyword}{const}\ \&color\ =\ sf::Color::Black,}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \ \ \ \ std::string\ \textcolor{keyword}{const}\ \&fontStr\ =\ \textcolor{stringliteral}{"{}./assets/fonts/librebaskerville\_italic.ttf"{}}}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text_a0967b186fd918fb11fdbfef4d29b237a}{Text}}(\mbox{\hyperlink{classrt_1_1Text}{Text}}\ \textcolor{keyword}{const}\ \&copy);}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text}{Text}}\&\ \mbox{\hyperlink{classrt_1_1Text_a5e586c728905d771e016d824ab252c4f}{operator=}}(\mbox{\hyperlink{classrt_1_1Text}{Text}}\ \textcolor{keyword}{const}\ \&copy);}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1Text_a2cfb0c31c32afd7936d3e03b0dd9851a}{\string~Text}}(\textcolor{keywordtype}{void})\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1Text_a344e09d8f4e047da4c863b1224dfc8e6}{draw}}(std::shared\_ptr<sf::RenderWindow>\ window)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ sf::Text\&\ \mbox{\hyperlink{classrt_1_1Text_a9e6f679dd01443ad0794a9a83ec58258}{get}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ std::string\ \mbox{\hyperlink{classrt_1_1Text_adbf76f70e4513d18d4f2858b53914f48}{getString}}(\textcolor{keywordtype}{void})\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1Text_a42e505f6b4ef506001cde921cce966b9}{setString}}(std::string\ \textcolor{keyword}{const}\ \&str);}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ sf::Vector2f\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classrt_1_1Text_ae30335dba5776a3e37f9f6f216d4cd06}{getPosition}}(\textcolor{keywordtype}{void})\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrt_1_1Text_a56484faa7a968d00df0cb2780b5f0e0d}{setPosition}}(sf::Vector2f\ \textcolor{keyword}{const}\ \&position);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ sf::Text\ \_text;}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ sf::Font\ \_font;}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ std::string\ \_textStr;}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ std::string\ \_fontStr;}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ sf::Color\ \_color;}
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \_size;}
+\DoxyCodeLine{00046\ \ \ \ \ \};}
+\DoxyCodeLine{00047\ \}}
+\DoxyCodeLine{00048\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

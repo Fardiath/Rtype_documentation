@@ -1,0 +1,40 @@
+\hypertarget{PageGame_8hpp_source}{}\doxysection{Page\+Game.\+hpp}
+\label{PageGame_8hpp_source}\index{client/Graphic/include/PageGame.hpp@{client/Graphic/include/PageGame.hpp}}
+\mbox{\hyperlink{PageGame_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ EPITECH\ PROJECT,\ 2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**\ Game.h}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ File\ description:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**\ Game}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_GAME\_PAGE\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\ \ \ \ \#define\ \_GAME\_PAGE\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{IPage_8hpp}{IPage.hpp}}"{}}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{Paralax_8hpp}{Paralax.hpp}}"{}}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{PersonActor_8hpp}{PersonActor.hpp}}"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{PersonEnemy_8hpp}{PersonEnemy.hpp}}"{}}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{Explosion_8hpp}{Explosion.hpp}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacert}{rt}}\ \{}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrt_1_1GamePage}{GamePage}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classrt_1_1IPage}{IPage}}\ \{}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1GamePage}{GamePage}}(}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ \ \ \ \ std::shared\_ptr<sf::RenderWindow>\ window,}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Event\ \textcolor{keyword}{const}\ \&event}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1GamePage_a72c361f9f8c7c409d9c3a298e1d722d2}{\string~GamePage}}(\textcolor{keywordtype}{void})\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ std::string\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classrt_1_1GamePage_a9f5707603765f215a9115af7b47d9c07}{run}}(std::vector<std::unique\_ptr<AnimatedRectangle>>\ \&personnages);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ std::unique\_ptr<Paralax>\ \_backgroundImage;}
+\DoxyCodeLine{00033\ \ \ \ \ \ \ \ \ std::unique\_ptr<Text>\ \_title;}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ std::vector<AnimatedRectangle>\ \_personnages;}
+\DoxyCodeLine{00035\ \ \ \ \ \};}
+\DoxyCodeLine{00036\ \}}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

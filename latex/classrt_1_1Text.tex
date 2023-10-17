@@ -1,0 +1,201 @@
+\hypertarget{classrt_1_1Text}{}\doxysection{rt\+::Text Class Reference}
+\label{classrt_1_1Text}\index{rt::Text@{rt::Text}}
+
+
+class text  
+
+
+
+
+{\ttfamily \#include $<$Text.\+hpp$>$}
+
+Inheritance diagram for rt\+::Text\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classrt_1_1Text}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1Text_a0967b186fd918fb11fdbfef4d29b237a}{Text}} (void)
+\item 
+\mbox{\hyperlink{classrt_1_1Text_afb7848cbd216c8a217a8cac898932493}{Text}} (sf\+::\+Vector2f const \&text\+Position, std\+::string const \&text, unsigned int const \&size, sf\+::\+Color const \&color=sf\+::\+Color\+::\+Black, std\+::string const \&font\+Str=\char`\"{}./assets/fonts/librebaskerville\+\_\+italic.\+ttf\char`\"{})
+\item 
+\mbox{\hyperlink{classrt_1_1Text_ab5b6c56ff91c8e6321a09387a06c64e6}{Text}} (\mbox{\hyperlink{classrt_1_1Text}{Text}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Text}{Text}} \& \mbox{\hyperlink{classrt_1_1Text_a5e586c728905d771e016d824ab252c4f}{operator=}} (\mbox{\hyperlink{classrt_1_1Text}{Text}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Text_a2cfb0c31c32afd7936d3e03b0dd9851a}{$\sim$\+Text}} (void)=default
+\item 
+void \mbox{\hyperlink{classrt_1_1Text_a344e09d8f4e047da4c863b1224dfc8e6}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+sf\+::\+Text \& \mbox{\hyperlink{classrt_1_1Text_a9e6f679dd01443ad0794a9a83ec58258}{get}} (void)
+\item 
+std\+::string \mbox{\hyperlink{classrt_1_1Text_adbf76f70e4513d18d4f2858b53914f48}{get\+String}} (void) const
+\item 
+void \mbox{\hyperlink{classrt_1_1Text_a42e505f6b4ef506001cde921cce966b9}{set\+String}} (std\+::string const \&str)
+\item 
+sf\+::\+Vector2f const \mbox{\hyperlink{classrt_1_1Text_ae30335dba5776a3e37f9f6f216d4cd06}{get\+Position}} (void) const
+\item 
+void \mbox{\hyperlink{classrt_1_1Text_a56484faa7a968d00df0cb2780b5f0e0d}{set\+Position}} (sf\+::\+Vector2f const \&position)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1IObject}{rt\+::\+IObject}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1IObject_a66d764973d45cc175c3b0cd8f4ec0b09}{$\sim$\+IObject}} (void)=default
+\item 
+virtual void \mbox{\hyperlink{classrt_1_1IObject_ac2efb29634d6dd58f5fb4cf47a30e189}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const =0
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1IObject}{rt\+::\+IObject}}}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classrt_1_1IObject_a13b24a0081333d7f0a7367da495f21a8}{\+\_\+position}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+class text 
+
+set position
+
+get position
+
+set string
+
+get string
+
+get text
+
+draw text
+
+implement equal operator
+
+Construct a new \mbox{\hyperlink{classrt_1_1Text}{Text}}\+:\+: \mbox{\hyperlink{classrt_1_1Text}{Text}} object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text\+Position} & \\
+\hline
+{\em text\+String} & \\
+\hline
+{\em text\+Size} & \\
+\hline
+{\em text\+Color} & \\
+\hline
+{\em font\+Str} & \\
+\hline
+{\em copy} & \\
+\hline
+{\em copy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classrt_1_1Text}{Text}}\&
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Text\&
+
+string
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em str} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Vector2f const
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em position} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1Text_a0967b186fd918fb11fdbfef4d29b237a}\label{classrt_1_1Text_a0967b186fd918fb11fdbfef4d29b237a}} 
+\index{rt::Text@{rt::Text}!Text@{Text}}
+\index{Text@{Text}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{Text()}{Text()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily rt\+::\+Text\+::\+Text (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Text_afb7848cbd216c8a217a8cac898932493}\label{classrt_1_1Text_afb7848cbd216c8a217a8cac898932493}} 
+\index{rt::Text@{rt::Text}!Text@{Text}}
+\index{Text@{Text}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{Text()}{Text()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily rt\+::\+Text\+::\+Text (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f const \&}]{text\+Position,  }\item[{std\+::string const \&}]{text,  }\item[{unsigned int const \&}]{size,  }\item[{sf\+::\+Color const \&}]{color = {\ttfamily sf\+:\+:Color\+:\+:Black},  }\item[{std\+::string const \&}]{font\+Str = {\ttfamily \char`\"{}./assets/fonts/librebaskerville\+\_\+italic.ttf\char`\"{}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Text_ab5b6c56ff91c8e6321a09387a06c64e6}\label{classrt_1_1Text_ab5b6c56ff91c8e6321a09387a06c64e6}} 
+\index{rt::Text@{rt::Text}!Text@{Text}}
+\index{Text@{Text}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{Text()}{Text()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily rt\+::\+Text\+::\+Text (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Text}{Text}} const \&}]{copy }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Text_a2cfb0c31c32afd7936d3e03b0dd9851a}\label{classrt_1_1Text_a2cfb0c31c32afd7936d3e03b0dd9851a}} 
+\index{rt::Text@{rt::Text}!````~Text@{$\sim$Text}}
+\index{````~Text@{$\sim$Text}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{$\sim$Text()}{~Text()}}
+{\footnotesize\ttfamily rt\+::\+Text\+::$\sim$\+Text (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1Text_a344e09d8f4e047da4c863b1224dfc8e6}\label{classrt_1_1Text_a344e09d8f4e047da4c863b1224dfc8e6}} 
+\index{rt::Text@{rt::Text}!draw@{draw}}
+\index{draw@{draw}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void rt\+::\+Text\+::draw (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classrt_1_1IObject_ac2efb29634d6dd58f5fb4cf47a30e189}{rt\+::\+IObject}}.
+
+\mbox{\Hypertarget{classrt_1_1Text_a9e6f679dd01443ad0794a9a83ec58258}\label{classrt_1_1Text_a9e6f679dd01443ad0794a9a83ec58258}} 
+\index{rt::Text@{rt::Text}!get@{get}}
+\index{get@{get}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily sf\+::\+Text \& rt\+::\+Text\+::get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Text_ae30335dba5776a3e37f9f6f216d4cd06}\label{classrt_1_1Text_ae30335dba5776a3e37f9f6f216d4cd06}} 
+\index{rt::Text@{rt::Text}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f const rt\+::\+Text\+::get\+Position (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classrt_1_1Text_adbf76f70e4513d18d4f2858b53914f48}\label{classrt_1_1Text_adbf76f70e4513d18d4f2858b53914f48}} 
+\index{rt::Text@{rt::Text}!getString@{getString}}
+\index{getString@{getString}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{getString()}{getString()}}
+{\footnotesize\ttfamily string rt\+::\+Text\+::get\+String (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classrt_1_1Text_a5e586c728905d771e016d824ab252c4f}\label{classrt_1_1Text_a5e586c728905d771e016d824ab252c4f}} 
+\index{rt::Text@{rt::Text}!operator=@{operator=}}
+\index{operator=@{operator=}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrt_1_1Text}{Text}} \& rt\+::\+Text\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Text}{Text}} const \&}]{copy }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Text_a56484faa7a968d00df0cb2780b5f0e0d}\label{classrt_1_1Text_a56484faa7a968d00df0cb2780b5f0e0d}} 
+\index{rt::Text@{rt::Text}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void rt\+::\+Text\+::set\+Position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f const \&}]{position }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Text_a42e505f6b4ef506001cde921cce966b9}\label{classrt_1_1Text_a42e505f6b4ef506001cde921cce966b9}} 
+\index{rt::Text@{rt::Text}!setString@{setString}}
+\index{setString@{setString}!rt::Text@{rt::Text}}
+\doxysubsubsection{\texorpdfstring{setString()}{setString()}}
+{\footnotesize\ttfamily void rt\+::\+Text\+::set\+String (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{str }\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{Text_8hpp}{Text.\+hpp}}\item 
+client/\+Graphic/source/\+Objects/\mbox{\hyperlink{Text_8cpp}{Text.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,36 @@
+\hypertarget{PageMenu_8hpp_source}{}\doxysection{Page\+Menu.\+hpp}
+\label{PageMenu_8hpp_source}\index{client/Graphic/include/PageMenu.hpp@{client/Graphic/include/PageMenu.hpp}}
+\mbox{\hyperlink{PageMenu_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{/*}}
+\DoxyCodeLine{00002\ \textcolor{comment}{**\ EPITECH\ PROJECT,\ 2023}}
+\DoxyCodeLine{00003\ \textcolor{comment}{**\ Menu.h}}
+\DoxyCodeLine{00004\ \textcolor{comment}{**\ File\ description:}}
+\DoxyCodeLine{00005\ \textcolor{comment}{**\ Menu}}
+\DoxyCodeLine{00006\ \textcolor{comment}{*/}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ \_MENU\_PAGE\_H\_}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\ \ \ \ \#define\ \_MENU\_PAGE\_H\_}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\ \ \ \ \#include\ "{}\mbox{\hyperlink{IPage_8hpp}{IPage.hpp}}"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespacert}{rt}}\ \{}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrt_1_1MenuPage}{MenuPage}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classrt_1_1IPage}{IPage}}\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1MenuPage}{MenuPage}}(}
+\DoxyCodeLine{00021\ \ \ \ \ \ \ \ \ \ \ \ \ std::shared\_ptr<sf::RenderWindow>\ window,}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \ \ \ \ sf::Event\ \textcolor{keyword}{const}\ \&event}
+\DoxyCodeLine{00023\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classrt_1_1MenuPage_a5bf32333e633d8fb337e518e3110718d}{\string~MenuPage}}(\textcolor{keywordtype}{void})\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00025\ \ \ \ \ \ \ \ \ std::string\ \textcolor{keyword}{const}\ \mbox{\hyperlink{classrt_1_1MenuPage_afa189463bebc9268aa58165e8ec21c38}{run}}(std::vector<std::unique\_ptr<AnimatedRectangle>>\ \&personnages);}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ std::unique\_ptr<rt::Rectangle>\ \_backgroundImage;}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \ \ std::unique\_ptr<rt::Text>\ \_title;}
+\DoxyCodeLine{00030\ \ \ \ \ \ \ \ \ std::vector<rt::Button>\ \_menuButtons;}
+\DoxyCodeLine{00031\ \ \ \ \ \};}
+\DoxyCodeLine{00032\ \}}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

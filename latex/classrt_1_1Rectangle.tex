@@ -1,0 +1,300 @@
+\hypertarget{classrt_1_1Rectangle}{}\doxysection{rt\+::Rectangle Class Reference}
+\label{classrt_1_1Rectangle}\index{rt::Rectangle@{rt::Rectangle}}
+
+
+create \mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} class  
+
+
+
+
+{\ttfamily \#include $<$Rectangle.\+hpp$>$}
+
+Inheritance diagram for rt\+::Rectangle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.154930cm]{classrt_1_1Rectangle}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a0c89496ce6470fad61d996763e532ae5}{Rectangle}} (void)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_aea61bf50ea67d6425f2b90b4cdce5a9d}{Rectangle}} (sf\+::\+Vector2f const \&rect\+Pos, sf\+::\+Vector2f const \&rect\+Size, std\+::string const \&image\+Src)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a09e8afee4e0402ab41a9549f91b9a17e}{Rectangle}} (sf\+::\+Vector2f const \&rect\+Pos, sf\+::\+Vector2f const \&rect\+Size, sf\+::\+Color const \&full\+Color=sf\+::\+Color\+::\+Transparent)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_ae58053dff25ac4166f9b077b9f87f46c}{Rectangle}} (\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} \& \mbox{\hyperlink{classrt_1_1Rectangle_a06cb5c195da15d34176f2958bd2d57e1}{operator=}} (\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} const \&copy)
+\item 
+\mbox{\hyperlink{classrt_1_1Rectangle_a2b597a0332f7df2e0928f2271c322216}{$\sim$\+Rectangle}} (void)=default
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_a8f52d79b359905cb5fc89dde03242bf1}{restore}} (void)
+\item 
+sf\+::\+Rectangle\+Shape \& \mbox{\hyperlink{classrt_1_1Rectangle_ad5d8f849f3bf6535cab087884f89ca73}{get}} (void)
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_ab12a29fa2412155201aceca3e4a80c1d}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a4fd1385f25f103d752c1807db3447415}{if\+Hover}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a7d62d836055a3dd1af225e419d149e7f}{if\+Clicked}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const
+\item 
+\mbox{\hyperlink{namespacert_a08f089eb1262b0c30a2825e3d07b4e49}{rt\+::\+Key\+Event}} const \mbox{\hyperlink{classrt_1_1Rectangle_afddc60490bc26a492508edf1437d6a6b}{get\+Event}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window)
+\item 
+sf\+::\+Vector2f const \mbox{\hyperlink{classrt_1_1Rectangle_afa023a2f94fd7fff15d0427177b406ed}{get\+Position}} (void) const
+\item 
+virtual void \mbox{\hyperlink{classrt_1_1Rectangle_a16d8e9c5aa7b70fe74d8c8c54ca110cc}{set\+Position}} (sf\+::\+Vector2f const \&position)
+\item 
+void \mbox{\hyperlink{classrt_1_1Rectangle_ad38776f87dbbeb97f87bd39fe0a4e495}{update\+Position}} (sf\+::\+Vector2f const \&pos\+Ecart)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{classrt_1_1IObject}{rt\+::\+IObject}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classrt_1_1IObject_a66d764973d45cc175c3b0cd8f4ec0b09}{$\sim$\+IObject}} (void)=default
+\item 
+virtual void \mbox{\hyperlink{classrt_1_1IObject_ac2efb29634d6dd58f5fb4cf47a30e189}{draw}} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window) const =0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Rectangle\+Shape \mbox{\hyperlink{classrt_1_1Rectangle_ae1bfd0960100ea8c91012beb3b18ea66}{\+\_\+rect}}
+\item 
+sf\+::\+Texture \mbox{\hyperlink{classrt_1_1Rectangle_a6709c49d1c553d29c10c15cc0b25eec8}{\+\_\+texture}}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classrt_1_1Rectangle_a8cd19b08de5c56a2973b7446cf5651ef}{\+\_\+size}}
+\item 
+\mbox{\hyperlink{namespacert_a08f089eb1262b0c30a2825e3d07b4e49}{rt\+::\+Key\+Event}} \mbox{\hyperlink{classrt_1_1Rectangle_a9e4c97b5071246d7ce9d14c6107b1c73}{\+\_\+current\+Event}}
+\item 
+bool \mbox{\hyperlink{classrt_1_1Rectangle_a6d0780a906a4185899bae4fef75174d6}{\+\_\+last\+Click}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{classrt_1_1IObject}{rt\+::\+IObject}}}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classrt_1_1IObject_a13b24a0081333d7f0a7367da495f21a8}{\+\_\+position}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+create \mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} class 
+
+update position
+
+check condition if there in clicking
+
+check condition if there is hover
+
+set position
+
+get position
+
+get value
+
+restaure position
+
+implement equality operator
+
+Construct a new \mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}}\+:\+: \mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} object.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rect\+Position} & \\
+\hline
+{\em rect\+Size} & \\
+\hline
+{\em image\+Src} & \\
+\hline
+{\em rect\+Position} & \\
+\hline
+{\em rect\+Size} & \\
+\hline
+{\em backgroud\+Color} & \\
+\hline
+{\em copy} & \\
+\hline
+{\em copy} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}}\&
+
+sf\+::\+Rectangle\+Shape\&
+
+sf\+::\+Vector2f const
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em position} & \\
+\hline
+{\em window} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em window} & \\
+\hline
+{\em my\+Event} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true 
+
+false
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+Ecart} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrt_1_1Rectangle_a0c89496ce6470fad61d996763e532ae5}\label{classrt_1_1Rectangle_a0c89496ce6470fad61d996763e532ae5}} 
+\index{rt::Rectangle@{rt::Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily rt\+::\+Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_aea61bf50ea67d6425f2b90b4cdce5a9d}\label{classrt_1_1Rectangle_aea61bf50ea67d6425f2b90b4cdce5a9d}} 
+\index{rt::Rectangle@{rt::Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily rt\+::\+Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f const \&}]{rect\+Pos,  }\item[{sf\+::\+Vector2f const \&}]{rect\+Size,  }\item[{std\+::string const \&}]{image\+Src }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a09e8afee4e0402ab41a9549f91b9a17e}\label{classrt_1_1Rectangle_a09e8afee4e0402ab41a9549f91b9a17e}} 
+\index{rt::Rectangle@{rt::Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily rt\+::\+Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f const \&}]{rect\+Pos,  }\item[{sf\+::\+Vector2f const \&}]{rect\+Size,  }\item[{sf\+::\+Color const \&}]{full\+Color = {\ttfamily sf\+:\+:Color\+:\+:Transparent} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_ae58053dff25ac4166f9b077b9f87f46c}\label{classrt_1_1Rectangle_ae58053dff25ac4166f9b077b9f87f46c}} 
+\index{rt::Rectangle@{rt::Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily rt\+::\+Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} const \&}]{copy }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a2b597a0332f7df2e0928f2271c322216}\label{classrt_1_1Rectangle_a2b597a0332f7df2e0928f2271c322216}} 
+\index{rt::Rectangle@{rt::Rectangle}!````~Rectangle@{$\sim$Rectangle}}
+\index{````~Rectangle@{$\sim$Rectangle}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{$\sim$Rectangle()}{~Rectangle()}}
+{\footnotesize\ttfamily rt\+::\+Rectangle\+::$\sim$\+Rectangle (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrt_1_1Rectangle_ab12a29fa2412155201aceca3e4a80c1d}\label{classrt_1_1Rectangle_ab12a29fa2412155201aceca3e4a80c1d}} 
+\index{rt::Rectangle@{rt::Rectangle}!draw@{draw}}
+\index{draw@{draw}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void rt\+::\+Rectangle\+::draw (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classrt_1_1IObject_ac2efb29634d6dd58f5fb4cf47a30e189}{rt\+::\+IObject}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classrt_1_1Room_ae66432e6f99016ebb158be0211a53874}{rt\+::\+Room}}.
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_ad5d8f849f3bf6535cab087884f89ca73}\label{classrt_1_1Rectangle_ad5d8f849f3bf6535cab087884f89ca73}} 
+\index{rt::Rectangle@{rt::Rectangle}!get@{get}}
+\index{get@{get}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape \& rt\+::\+Rectangle\+::get (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_afddc60490bc26a492508edf1437d6a6b}\label{classrt_1_1Rectangle_afddc60490bc26a492508edf1437d6a6b}} 
+\index{rt::Rectangle@{rt::Rectangle}!getEvent@{getEvent}}
+\index{getEvent@{getEvent}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{getEvent()}{getEvent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespacert_a08f089eb1262b0c30a2825e3d07b4e49}{rt\+::\+Key\+Event}} const rt\+::\+Rectangle\+::get\+Event (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_afa023a2f94fd7fff15d0427177b406ed}\label{classrt_1_1Rectangle_afa023a2f94fd7fff15d0427177b406ed}} 
+\index{rt::Rectangle@{rt::Rectangle}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f const rt\+::\+Rectangle\+::get\+Position (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a7d62d836055a3dd1af225e419d149e7f}\label{classrt_1_1Rectangle_a7d62d836055a3dd1af225e419d149e7f}} 
+\index{rt::Rectangle@{rt::Rectangle}!ifClicked@{ifClicked}}
+\index{ifClicked@{ifClicked}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{ifClicked()}{ifClicked()}}
+{\footnotesize\ttfamily bool rt\+::\+Rectangle\+::if\+Clicked (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a4fd1385f25f103d752c1807db3447415}\label{classrt_1_1Rectangle_a4fd1385f25f103d752c1807db3447415}} 
+\index{rt::Rectangle@{rt::Rectangle}!ifHover@{ifHover}}
+\index{ifHover@{ifHover}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{ifHover()}{ifHover()}}
+{\footnotesize\ttfamily bool rt\+::\+Rectangle\+::if\+Hover (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$}]{window }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a06cb5c195da15d34176f2958bd2d57e1}\label{classrt_1_1Rectangle_a06cb5c195da15d34176f2958bd2d57e1}} 
+\index{rt::Rectangle@{rt::Rectangle}!operator=@{operator=}}
+\index{operator=@{operator=}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} \& rt\+::\+Rectangle\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classrt_1_1Rectangle}{Rectangle}} const \&}]{copy }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a8f52d79b359905cb5fc89dde03242bf1}\label{classrt_1_1Rectangle_a8f52d79b359905cb5fc89dde03242bf1}} 
+\index{rt::Rectangle@{rt::Rectangle}!restore@{restore}}
+\index{restore@{restore}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{restore()}{restore()}}
+{\footnotesize\ttfamily void rt\+::\+Rectangle\+::restore (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a16d8e9c5aa7b70fe74d8c8c54ca110cc}\label{classrt_1_1Rectangle_a16d8e9c5aa7b70fe74d8c8c54ca110cc}} 
+\index{rt::Rectangle@{rt::Rectangle}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void rt\+::\+Rectangle\+::set\+Position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f const \&}]{position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classrt_1_1Button_a3ec65c3452b6dc4701cb751b1329f9c2}{rt\+::\+Button}}, and \mbox{\hyperlink{classrt_1_1Room_a6e8fed0101e79ed142d7d382cb34524e}{rt\+::\+Room}}.
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_ad38776f87dbbeb97f87bd39fe0a4e495}\label{classrt_1_1Rectangle_ad38776f87dbbeb97f87bd39fe0a4e495}} 
+\index{rt::Rectangle@{rt::Rectangle}!updatePosition@{updatePosition}}
+\index{updatePosition@{updatePosition}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{updatePosition()}{updatePosition()}}
+{\footnotesize\ttfamily void rt\+::\+Rectangle\+::update\+Position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f const \&}]{pos\+Ecart }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classrt_1_1Rectangle_a9e4c97b5071246d7ce9d14c6107b1c73}\label{classrt_1_1Rectangle_a9e4c97b5071246d7ce9d14c6107b1c73}} 
+\index{rt::Rectangle@{rt::Rectangle}!\_currentEvent@{\_currentEvent}}
+\index{\_currentEvent@{\_currentEvent}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{\_currentEvent}{\_currentEvent}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespacert_a08f089eb1262b0c30a2825e3d07b4e49}{rt\+::\+Key\+Event}} rt\+::\+Rectangle\+::\+\_\+current\+Event\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a6d0780a906a4185899bae4fef75174d6}\label{classrt_1_1Rectangle_a6d0780a906a4185899bae4fef75174d6}} 
+\index{rt::Rectangle@{rt::Rectangle}!\_lastClick@{\_lastClick}}
+\index{\_lastClick@{\_lastClick}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{\_lastClick}{\_lastClick}}
+{\footnotesize\ttfamily bool rt\+::\+Rectangle\+::\+\_\+last\+Click\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_ae1bfd0960100ea8c91012beb3b18ea66}\label{classrt_1_1Rectangle_ae1bfd0960100ea8c91012beb3b18ea66}} 
+\index{rt::Rectangle@{rt::Rectangle}!\_rect@{\_rect}}
+\index{\_rect@{\_rect}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{\_rect}{\_rect}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape rt\+::\+Rectangle\+::\+\_\+rect\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a8cd19b08de5c56a2973b7446cf5651ef}\label{classrt_1_1Rectangle_a8cd19b08de5c56a2973b7446cf5651ef}} 
+\index{rt::Rectangle@{rt::Rectangle}!\_size@{\_size}}
+\index{\_size@{\_size}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{\_size}{\_size}}
+{\footnotesize\ttfamily sf\+::\+Vector2f rt\+::\+Rectangle\+::\+\_\+size\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classrt_1_1Rectangle_a6709c49d1c553d29c10c15cc0b25eec8}\label{classrt_1_1Rectangle_a6709c49d1c553d29c10c15cc0b25eec8}} 
+\index{rt::Rectangle@{rt::Rectangle}!\_texture@{\_texture}}
+\index{\_texture@{\_texture}!rt::Rectangle@{rt::Rectangle}}
+\doxysubsubsection{\texorpdfstring{\_texture}{\_texture}}
+{\footnotesize\ttfamily sf\+::\+Texture rt\+::\+Rectangle\+::\+\_\+texture\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+client/\+Graphic/include/\mbox{\hyperlink{Rectangle_8hpp}{Rectangle.\+hpp}}\item 
+client/\+Graphic/source/\+Objects/\mbox{\hyperlink{Rectangle_8cpp}{Rectangle.\+cpp}}\end{DoxyCompactItemize}
